@@ -1,0 +1,31 @@
+body{
+    background-color: chartreuse;
+}
+
+.heading{
+    margin-top: 0px;
+    width:100%;
+    font-size: 25;
+    box-shadow: 10px 10px 30px rgb(125, 250, 146);
+}
+.note{
+    font-size: 15px;
+    width:fit-content;
+    color: brown;
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+canvas{
+    border: 5px solid rgb(255, 81, 0);
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    form{box-shadow: 30px 30px 30px rgb(0, 183, 255);}
+    to{ box-shadow: 30px 30px 30px rgb(255, 81, 0);}
+}
